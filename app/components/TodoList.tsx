@@ -86,12 +86,12 @@ const TodoList: React.FC<TodoListProps> = ({ tasks, setTasks }) => {
 												required
 												type="text"
 												placeholder="Enter your task"
-												className="input input-bordered w-full shadow-lg text-white"
+												className="input input-bordered w-full shadow-lg text-white bg-white/15 backdrop-blur-lg"
 											/>
 											<button
 												type="submit"
-												className="btn shadow-lg text-white/90 hover:bg-blue-500 hover:text-white">
-												Submit
+												className="btn shadow-lg text-white/90 hover:bg-blue-500 hover:text-white bg-white/15 backdrop-blur-lg">
+												Update
 											</button>
 										</div>
 									</form>

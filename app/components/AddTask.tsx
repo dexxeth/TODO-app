@@ -35,7 +35,7 @@ const AddTask: React.FC<AddTaskProps> = ({ addTask }) => {
 				aria-label="Add Task">
 				<HiPlusCircle size={80} />
 			</button>
-			<Modal modalOpen={modalOpen} setModalOpen={setModalOpen}>
+			<Modal modalOpen={modalOpen} setModalOpen={setModalOpen} >
 				<form onSubmit={handleSubmitNewTodo}>
 					<h3 className="font-bold text-lg">Add new task</h3>
 					<div className="modal-action">
@@ -46,11 +46,11 @@ const AddTask: React.FC<AddTaskProps> = ({ addTask }) => {
 							required
 							type="text"
 							placeholder="Enter your task"
-							className="input input-bordered w-full shadow-lg"
+							className="input input-bordered w-full shadow-lg bg-white/15 backdrop-blur-lg"
 						/>
 						<button
 							type="submit"
-							className="btn shadow-lg text-white/90 hover:bg-blue-500 hover:text-white">
+							className="btn shadow-lg text-white/90 hover:bg-blue-500 hover:text-white bg-white/15 backdrop-blur-lg">
 							Submit
 						</button>
 					</div>

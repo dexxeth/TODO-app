@@ -9,7 +9,7 @@ interface ModalProps {
 const Modal: React.FC<ModalProps> = ({ modalOpen, setModalOpen, children }) => {
 	return (
 		<div className={`modal ${modalOpen ? "modal-open " : ""}`}>
-			<div className="modal-box">
+			<div className="modal-box bg-[#1d1d1f]/95 shadow-lg ring-1 ring-white/10 backdrop-blur-lg">
 				<form method="dialog">
 					<button
 						onClick={() => setModalOpen(false)}

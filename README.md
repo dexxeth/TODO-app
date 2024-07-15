@@ -26,7 +26,7 @@ To get started with the TODO App, follow these steps:
 
     ```sh
     git clone https://github.com/dexxeth/TODO-app.git
-    cd todo-app
+    cd TODO-app
     ```
 
 2. **Install dependencies:**

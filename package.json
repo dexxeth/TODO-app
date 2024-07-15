@@ -6,10 +6,12 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"export": "next build && next export"
 	},
 	"dependencies": {
 		"next": "14.2.5",
+		"next-export-optimize-images": "^4.5.0",
 		"next-videos": "^1.4.1",
 		"react": "^18",
 		"react-dom": "^18",

@@ -2,10 +2,19 @@
 import withVideos from "next-videos";
 
 const nextConfig = {
-    /* config options here */
+	/* config options here */
 };
 
 export default {
-    ...nextConfig,
-    ...withVideos(),
+	...nextConfig,
+	...withVideos(),
+};
+
+module.exports = {
+	basePath: "/TODO-app",
+	assetPrefix: "/TODO-app/",
+	trailingSlash: true,
+	images: {
+		unoptimized: true,
+	},
 };
